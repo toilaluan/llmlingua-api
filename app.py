@@ -14,7 +14,6 @@ model = str(os.environ.get("MODEL", "microsoft/llmlingua-2-bert-base-multilingua
 compressor = PromptCompressor(
     model_name=model,
     use_llmlingua2=True,
-    device_map="cpu"
 )
 
 class CompressRequest(BaseModel):
