@@ -1,5 +1,5 @@
 ```bash
-git clone https://github.com/voiceflow-gallagan/llmlingua-api.git
+git clone https://github.com/toilaluan/llmlingua-api.git
 cd llmlingua-api
 pip install -r requirements.txt
 export MODEL=microsoft/llmlingua-2-xlm-roberta-large-meetingbank
